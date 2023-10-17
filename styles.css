@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#imagen {
+    text-align: center; /* Centra la imagen horizontalmente */
+    margin-top: 20px; /* Agrega un margen superior de 20px entre el título y la imagen */
+}
+
+#imagen img {  
+width: 220px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 220px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Estilo de las barras de rendimiento */
+.habilidades-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.habilidades-lista li {
+    margin: 10px 0;
+}
+
+.habilidad-nombre {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.barra-rendimiento {
+    background-color: #f4f4f4;
+    height: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.barra-progreso {
+    height: 100%;
+    background-color: #4CAF50;
+}
+
+/* Estilo de las barras de progreso */
+
+/* Estilos para el formulario */
+.formulario-container {
+    display: flex;
+    flex-direction: row-reverse; /* Coloca la imagen a la derecha del formulario */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    flex: 1;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
